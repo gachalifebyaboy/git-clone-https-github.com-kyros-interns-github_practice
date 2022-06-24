@@ -9,3 +9,8 @@ git push -u origin main
 git status
 git add <file> 
 git commit -m <message>
+git push
+git fetch
+git checkout -b <branch_name>
+git checkout <branch_name>
+git merge <branch_name>
