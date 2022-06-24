@@ -1,0 +1,11 @@
+echo "# git-clone-https-github.com-kyros-interns-github_practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gachalifebyaboy/git-clone-https-github.com-kyros-interns-github_practice.git
+git push -u origin main
+
+git status
+git add <file> 
+git commit -m <message>
