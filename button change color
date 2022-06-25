@@ -1,0 +1,11 @@
+<html>
+  let button=mouse.click("right")
+  if(button=1):
+    background_color="black"
+    console.log('dark mode')
+  else:
+    background_color="white"
+    console.log('normal')
+
+
+</html>
