@@ -1,7 +1,8 @@
 
 const {button} = require("./1.export_buttonjs.js")
+object.onclick = function(){myScript};
 background_color=
-  let button=mouse.click("right")
+  let button=object.onclick
   if(button=1):
     background_color="black"
     console.log('dark mode')
