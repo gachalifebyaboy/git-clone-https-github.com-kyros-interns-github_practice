@@ -1,4 +1,6 @@
-<html>
+
+const {button} = require("./1.export_buttonjs.js")
+background_color=
   let button=mouse.click("right")
   if(button=1):
     background_color="black"
@@ -6,6 +8,3 @@
   else:
     background_color="white"
     console.log('normal')
-
-
-</html>
