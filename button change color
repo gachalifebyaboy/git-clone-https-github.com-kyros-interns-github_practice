@@ -1,11 +1,14 @@
+<html>
+let button = document.createElement("button");
+btn.innerHTML = "Save";
 
-const {button} = require("./1.export_buttonjs.js")
-object.onclick = function(){myScript};
-background_color=
-  let button=object.onclick
-  if(button=1):
-    background_color="black"
+document.body.appendChild(btn);
+btn.addEventListener("click", function () {
+    document.body.style.backgroundColor = "black";
     console.log('dark mode')
-  else:
-    background_color="white"
+  });
+  else{
+  document.body.style.backgroundColor = "white";
     console.log('normal')
+  }
+</html>
